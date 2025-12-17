@@ -296,6 +296,13 @@ body {
   text-shadow: 0 0 10px var(--color-yellow);
 }
 
+.participant-guess.hidden {
+  color: rgba(255, 255, 255, 0.4);
+  text-shadow: none;
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
 .remove-btn {
   background: var(--color-pink);
   color: var(--color-light);

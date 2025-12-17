@@ -101,6 +101,7 @@ function App() {
           <ParticipantList
             participants={participants}
             onRemove={handleRemoveParticipant}
+            showGuesses={hasWinner}
           />
           {participants.length > 0 && (
             <RollButton onRoll={handleRoll} disabled={false} />
